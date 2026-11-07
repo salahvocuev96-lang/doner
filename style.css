@@ -264,11 +264,10 @@ a { color: inherit; }
 .hero-visual::before { inset: -8%; border: 1.5px solid rgba(255, 255, 255, .16); }
 .hero-visual::after  { inset: -17%; border: 1.5px solid rgba(255, 255, 255, .08); }
 
-.plate--hero { background: transparent; box-shadow: none; overflow: visible; }
+.plate--hero { box-shadow: 0 40px 70px -28px rgba(4, 14, 42, .75); overflow: hidden; }
 .plate--hero .plate-mono { font-size: 34cqw; }
-.plate--hero .plate-rim { display: none; }
-.plate--hero .plate-food { inset: 0; background: transparent; border-radius: 0; overflow: visible; z-index: 2; }
-.plate--hero .plate-food img { object-fit: contain; transform: none; }
+.plate--hero .plate-food { inset: 0; z-index: 2; }
+.plate--hero .plate-food img { transform: scale(1.5); object-position: center 30%; }
 
 .hero-stamp {
   position: absolute; left: -3%; bottom: 2%;
